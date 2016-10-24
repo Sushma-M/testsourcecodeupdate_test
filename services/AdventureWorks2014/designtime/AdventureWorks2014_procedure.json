@@ -1,0 +1,50 @@
+{
+  "name" : "AdventureWorks2014",
+  "description" : "Procedure for AdventureWorks2014",
+  "procedures" : [ {
+    "name" : "proc1",
+    "procedure" : "Exec HumanResources.getDeparmentInfoIn :Id",
+    "comment" : "proc1",
+    "description" : null,
+    "outputType" : null,
+    "returnsSingleResult" : false,
+    "procedureParams" : [ {
+      "paramName" : "Id",
+      "procedureParamType" : "IN",
+      "valueType" : "java.lang.Integer",
+      "testValue" : "2",
+      "systemParamName" : null,
+      "systemParam" : false,
+      "list" : false
+    } ],
+    "returnTypeMetadata" : [ {
+      "element" : [ {
+        "name" : "DepartmentID",
+        "subType" : null,
+        "typeRef" : "java.lang.Short",
+        "isList" : false,
+        "allowNull" : null
+      }, {
+        "name" : "Name",
+        "subType" : null,
+        "typeRef" : "java.lang.String",
+        "isList" : false,
+        "allowNull" : null
+      }, {
+        "name" : "GroupName",
+        "subType" : null,
+        "typeRef" : "java.lang.String",
+        "isList" : false,
+        "allowNull" : null
+      }, {
+        "name" : "ModifiedDate",
+        "subType" : null,
+        "typeRef" : "java.sql.Timestamp",
+        "isList" : false,
+        "allowNull" : null
+      } ],
+      "javaType" : "AdventureWorks2014proc1rtnType",
+      "name" : "AdventureWorks2014proc1rtnType"
+    } ]
+  } ]
+}
